@@ -67,5 +67,5 @@ function CoverageIstanbulReporter(baseReporterDecorator, logger, config) {
 CoverageIstanbulReporter.$inject = ['baseReporterDecorator', 'logger', 'config'];
 
 module.exports = {
-  'reporter:coverage-istanbul': ['type', CoverageIstanbulReporter]
+  'reporter:new-coverage': ['type', CoverageIstanbulReporter]
 };

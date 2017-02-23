@@ -1,21 +1,21 @@
-# karma-coverage-istanbul-reporter
-[![Build Status](https://travis-ci.org/mattlewis92/karma-coverage-istanbul-reporter.svg?branch=master)](https://travis-ci.org/mattlewis92/karma-coverage-istanbul-reporter)
-[![codecov](https://codecov.io/gh/mattlewis92/karma-coverage-istanbul-reporter/branch/master/graph/badge.svg)](https://codecov.io/gh/mattlewis92/karma-coverage-istanbul-reporter)
-[![npm version](https://badge.fury.io/js/karma-coverage-istanbul-reporter.svg)](http://badge.fury.io/js/karma-coverage-istanbul-reporter)
-[![npm](https://img.shields.io/npm/dm/karma-coverage-istanbul-reporter.svg)](http://badge.fury.io/js/karma-coverage-istanbul-reporter)
-[![GitHub issues](https://img.shields.io/github/issues/mattlewis92/karma-coverage-istanbul-reporter.svg)](https://github.com/mattlewis92/karma-coverage-istanbul-reporter/issues)
-[![GitHub stars](https://img.shields.io/github/stars/mattlewis92/karma-coverage-istanbul-reporter.svg)](https://github.com/mattlewis92/karma-coverage-istanbul-reporter/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mattlewis92/karma-coverage-istanbul-reporter/master/LICENSE)
+# karma-new-coverage-reporter
+[![Build Status](https://travis-ci.org/mattlewis92/karma-new-coverage-reporter.svg?branch=master)](https://travis-ci.org/mattlewis92/karma-new-coverage-reporter)
+[![codecov](https://codecov.io/gh/mattlewis92/karma-new-coverage-reporter/branch/master/graph/badge.svg)](https://codecov.io/gh/mattlewis92/karma-new-coverage-reporter)
+[![npm version](https://badge.fury.io/js/karma-new-coverage-reporter.svg)](http://badge.fury.io/js/karma-new-coverage-reporter)
+[![npm](https://img.shields.io/npm/dm/karma-new-coverage-reporter.svg)](http://badge.fury.io/js/karma-new-coverage-reporter)
+[![GitHub issues](https://img.shields.io/github/issues/mattlewis92/karma-new-coverage-reporter.svg)](https://github.com/mattlewis92/karma-new-coverage-reporter/issues)
+[![GitHub stars](https://img.shields.io/github/stars/mattlewis92/karma-new-coverage-reporter.svg)](https://github.com/mattlewis92/karma-new-coverage-reporter/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mattlewis92/karma-new-coverage-reporter/master/LICENSE)
 
 > A karma reporter that uses the latest istanbul 1.x APIs (with full sourcemap support) to report coverage.
 
 ## About
-This is a reporter only and does not perform the actual instrumentation of your code. Webpack users should use the [istanbul-instrumenter-loader](https://github.com/deepsweet/istanbul-instrumenter-loader) and then use this karma reporter to do the actual reporting. See the [test config](https://github.com/mattlewis92/karma-coverage-istanbul-reporter/blob/master/test/karma.conf.js) for an e2e example of how to combine them.
+This is a reporter only and does not perform the actual instrumentation of your code. Webpack users should use the [istanbul-instrumenter-loader](https://github.com/deepsweet/istanbul-instrumenter-loader) and then use this karma reporter to do the actual reporting. See the [test config](https://github.com/mattlewis92/karma-new-coverage-reporter/blob/master/test/karma.conf.js) for an e2e example of how to combine them.
 
 ## Installation
 
 ```bash
-npm install karma-coverage-istanbul-reporter --save-dev
+npm install karma-new-coverage-reporter --save-dev
 ```
 
 ## Configuration
@@ -29,9 +29,9 @@ module.exports = function (config) {
     // ... rest of karma config
 
     // anything named karma-* is normally auto included so you probably dont need this
-    plugins: ['karma-coverage-istanbul-reporter'],
+    plugins: ['karma-new-coverage-reporter'],
 
-    reporters: ['coverage-istanbul'],
+    reporters: ['new-coverage'],
 
     // any of these options are valid: https://github.com/istanbuljs/istanbul-api/blob/47b7803fbf7ca2fb4e4a15f3813a8884891ba272/lib/config.js#L33-L38
     coverageIstanbulReporter: {
