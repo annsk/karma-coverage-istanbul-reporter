@@ -15,6 +15,8 @@ function CoverageIstanbulReporter(baseReporterDecorator, logger, config) {
     browserCoverage.set(browser, result.coverage);
   };
 
+  this.specFailure = function (browsers, result) {}
+
   const baseReporterOnRunComplete = this.onRunComplete;
   this.onRunComplete = function (browsers) {
     baseReporterOnRunComplete.apply(this, arguments);

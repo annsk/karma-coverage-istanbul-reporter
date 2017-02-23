@@ -1,5 +1,5 @@
 {
-  "name": "karma-coverage-istanbul-reporter",
+  "name": "karma-new-coverage-reporter",
   "version": "0.2.3",
   "description": "A karma reporter that uses the latest istanbul 1.x APIs (with full sourcemap support) to report coverage.",
   "main": "src/reporter.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattlewis92/karma-coverage-istanbul-reporter.git"
+    "url": "git+https://github.com/annsk/karma-coverage-istanbul-reporter.git"
   },
   "keywords": [
     "karma-plugin",
@@ -26,12 +26,12 @@
     "istanbul",
     "istanbuljs"
   ],
-  "author": "Matt Lewis",
+  "author": "Artur Pelczar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattlewis92/karma-coverage-istanbul-reporter/issues"
+    "url": "https://github.com/annsk/karma-coverage-istanbul-reporter/issues"
   },
-  "homepage": "https://github.com/mattlewis92/karma-coverage-istanbul-reporter#readme",
+  "homepage": "https://github.com/annsk/karma-coverage-istanbul-reporter#readme",
   "dependencies": {
     "istanbul-api": "^1.1.1"
   },
